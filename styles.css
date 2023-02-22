@@ -10,3 +10,71 @@ main {
 .section-04 {
     border: 1px solid red;
 }
+
+/*------------------------Above: Just for work-----------------------*/
+
+body {
+    font-family: roboto sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 auto;
+    justify-content: space-between;
+}
+.section-01 {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex: 1;
+}
+
+.section-02 {
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.section-03 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+}
+
+.section-04 {
+    display: flex;
+    flex: 1;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 auto;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.src-quote {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 20px;
+}
