@@ -1,0 +1,12 @@
+header,
+footer,
+main {
+    border: 2px solid rebeccapurple;
+}
+
+.section-01,
+.section-02,
+.section-03,
+.section-04 {
+    border: 1px solid red;
+}
