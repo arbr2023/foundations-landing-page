@@ -8,18 +8,22 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
- <header>
-    Header Logo
-    <a href="https://www.theodinproject.com/">header link one</a>
-    <a href="https://www.theodinproject.com/">header link two</a>
-    <a href="https://www.theodinproject.com/">header link three</a>
- </header>
- <main>
+ <div class="header">
+     <div class="logo">Header Logo</div>
+     <a href="https://www.theodinproject.com/">header link one</a>
+     <a href="https://www.theodinproject.com/">header link two</a>
+     <a href="https://www.theodinproject.com/">header link three</a>
+ </div>
+ <div class="content">
     <div class="section-01">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <button><a href="https://www.theodinproject.com/">Sign up</a></button>
-        <img alt="this is a placeholder for an image" src="#">
+        <div class="left">
+          <h1>This website is awesome</h1>
+          <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+          <button class="sign-up"><a href="https://www.theodinproject.com/">Sign up</a></button>
+        </div>
+        <div class="right">
+          <img alt="this is a placeholder for an image" src="#">
+        </div>  
     </div>
     <div class="section-02">
         <h2>Some random information.</h2>
@@ -53,9 +57,9 @@
         </div>
         <button><a href="https://www.theodinproject.com/">Sign up</a></button>
     </div>
- </main>
- <footer>
+ </div>
+ <div class="footer">
     <p>Copyright @ <a href="https://www.theodinproject.com/about">The Odin Project</a> 2023</p>
- </footer> 
+ </div> 
 </body>
 </html>
