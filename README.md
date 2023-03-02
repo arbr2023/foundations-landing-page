@@ -5,4 +5,4 @@ This is the last flexbox-exercise/-project. First I try to duplicate the templat
 For tomorrow:
 
 
-- Center the alt-text in the images
+- Center the alt-text in the imagesgit
